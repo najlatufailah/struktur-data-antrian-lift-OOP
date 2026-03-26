@@ -1,18 +1,7 @@
-## Getting Started
+**Deskripsi Kasus**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Program ini dibuat untuk mensimulasikan sistem antrian lift pada sebuah gedung tower sains.
+Setiap orang yang datang akan masuk ke dalam antrian, kemudian lift akan mengangkut penumpang sesuai kapasitas yang tersedia.
+Lift hanya dapat menampung maksimal 10 orang dalam satu perjalanan. Setelah penuh atau tidak ada antrian, lift akan berjalan dan menurunkan penumpang sesuai lantai tujuan masing-masing.
+Lantai yang digunakan dalam simulasi adalah lantai 3, 5, dan 6.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
